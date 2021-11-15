@@ -1,0 +1,90 @@
+/*header*/
+:root {
+    --colorbright: #ffffff;
+}
+
+header{
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(44, 146, 150);
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 58px;
+    background-color: rgb(38, 95, 97);
+    color: var(--colorbright);
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    color: var(--colorbright);
+}
+
+a:visited{
+    color: var(--colorbright);
+}
+
+
+h3 {
+    font-size: 45px;
+    color:  rgb(21, 67, 68);
+    position: relative;
+    justify-content: space-between;
+}
+.subtitle {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--colorbright);
+    padding: 45px;     
+    height: 200px;
+    margin-bottom: 25px;
+    background-image: url("https://i.etsystatic.com/8234181/r/il/fd8419/1910546970/il_1140xN.1910546970_du4x.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+h2 {
+    float: right;
+    background-color: rgb(153, 148, 148);
+    margin-top: 170px;
+    color: var(--colorbright); 
+    padding-right: 25px;
+}
+
+.about-me {
+    display: flex;
+    padding: 60px;
+    
+}
+
+.about-me-par {
+    float: right;
+    padding: 35px;
+
+}
+
+a.glow {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    transform: scale(.9);
+    z-index: -1;
+}
+.glow:hover,
+.glow:hover {
+    box-shadow: inset 0px 0px 8px rgb(121, 205, 211), 0 0 15px rgb(166, 231, 247);
+    text-shadow: 0 0 15px rgb(121, 205, 211), 0 0 15px rgb(166, 231, 247);
+}
