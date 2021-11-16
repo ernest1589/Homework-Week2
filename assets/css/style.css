@@ -68,12 +68,14 @@ h2 {
 .about-me {
     display: flex;
     padding: 60px;
+    margin: none;
     
 }
 
 .about-me-par {
     float: right;
     padding: 35px;
+    margin: none;
 
 }
 
@@ -87,4 +89,35 @@ a.glow {
 .glow:hover {
     box-shadow: inset 0px 0px 8px rgb(121, 205, 211), 0 0 15px rgb(166, 231, 247);
     text-shadow: 0 0 15px rgb(121, 205, 211), 0 0 15px rgb(166, 231, 247);
+}
+
+footer {
+    padding: 20px;
+}
+
+footer nav {
+    display: inline;
+}
+
+footer nav ul {
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.contact-me {
+    display: flex;
+    padding: 35px;
+    
+}
+
+.work {
+    padding: 35px;
+    display: flex;
+}
+h4 {
+    
 }
