@@ -157,13 +157,13 @@ footer nav ul li {
 }
 @media screen and (min-width: 768px) {
     /* on tablets, set columns to only be 50% of the width and not grow */
-    .mainheader.subtitle.contact-me {
+    .body {
       flex: 0 0 50%;
       max-width: 50%;
     }
   
     /* select the last child to grow to full width if it has space to grow */
-    .mainheader.subtitle.contact-me:last-child {
+    .body {
       flex-grow: 1;
     }
   }
