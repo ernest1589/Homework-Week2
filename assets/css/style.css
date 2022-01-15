@@ -19,7 +19,6 @@ header h1 {
 
 header nav {
     padding-top: 15px;
-    margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -35,6 +34,15 @@ header nav ul li {
     color: var(--colorbright);
 }
 
+.mainheader {
+    display:inline-block;
+}
+
+.mainheader nav{
+    display: inline-block;
+    margin: 0px;
+
+}
 a:visited{
     color: var(--colorbright);
 }
@@ -115,6 +123,7 @@ footer nav ul li {
     display: flex;
     padding: 35px;
     margin: 20px;
+    margin-right: 20px;
     background-color: var(--greenish);
     
 }
@@ -137,6 +146,7 @@ footer nav ul li {
     height: 200px;
 }
 .text-image-bottom-right {
+    display: inline-block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: bottom;
     bottom: 60px;
@@ -149,6 +159,10 @@ footer nav ul li {
 }
 .row {
     display: flex;
+}
+
+#contact-me {
+    margin-right: 20px;
 }
 
 .column {
